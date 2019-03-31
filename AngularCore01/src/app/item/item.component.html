@@ -1,0 +1,5 @@
+<h3 [ngClass]="{completed: item.status == true}">
+  Name : {{item.name}} |
+  <button (click)="returnIdStatusToList(item.id)">Complete: </button> {{item.status}} 
+  <button (click) = "returnIdDeleteToList(item.id)" >[X]</button>
+</h3>
