@@ -1,0 +1,44 @@
+.form-main {
+  background-color: rgb(250, 250, 250);
+  margin: 0 auto;
+  border-radius: 4px;
+  width: 75%;
+  max-width: 900px;
+  padding: 10px;
+  padding-top: 20px;
+}
+
+.labels {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 5px;
+  margin-right: 15px;
+}
+
+.content {
+  display: inline-block;
+  text-align: left;
+  width: 48%;
+  vertical-align: middle;
+}
+
+.submit {
+  background-color: #59ace0;
+  border-radius: 4px;
+  color: white;
+  font-size: 1em;
+  height: 40px;
+  width: 96px;
+  margin: 10px;
+  border: 0px solid;
+}
+.isa_error {
+  color: #d8000c;
+  background-color: #ffd2d2;
+}
+.invalid {
+  border: solid 1px red;
+}
