@@ -1,0 +1,10 @@
+<div class="row">
+  <div>
+    <ul class="nav flex-column">
+      <li class="nav-item" *ngFor="let item of messageItem">
+        <a class="nav-link" routerLink="{{item}}">{{item}}</a>
+      </li>
+      <router-outlet></router-outlet>
+    </ul>
+  </div>
+</div>
